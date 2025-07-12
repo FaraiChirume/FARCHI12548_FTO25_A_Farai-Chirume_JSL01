@@ -213,21 +213,4 @@ main > div > div:last-child div {
   }
 }
 
-/* Responsive layout for small laptop*/
-@media (max-width: 1024px) {
-  nav {
-    width: 200px;
-    padding: 1.5rem;
-  }
-
-  main {
-    padding: 1.5rem;
-    gap: 1.5rem;
-  }
-
-  header {
-    padding: 2rem;
-  }
-}
-
 
