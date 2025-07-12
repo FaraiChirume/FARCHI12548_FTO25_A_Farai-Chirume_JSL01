@@ -151,3 +151,65 @@ main > div > div:last-child div {
   line-height: 23px;
   cursor: grab;
 }
+
+/* Responsive layout for mobile */
+@media (max-width: 768px) {
+    body {
+    flex-direction: column;
+    height: auto;
+    overflow: auto;
+    }
+
+  nav {
+    width: 100%;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: none;
+    border-bottom: 1px solid #E3E3E3;
+    overflow: auto;
+  }
+
+  nav h1 {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+  }
+
+  header {
+    padding: 1.5rem 1rem;
+  }
+
+  main {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  main > div {
+    min-width: 100%;
+  }
+  nav h1 {
+    font-size: 18px;
+  }
+
+  nav button {
+    font-size: 12px;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  header {
+    padding: 1.5rem 1rem;
+  }
+
+  main {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  main > div {
+    min-width: 100%;
+  }
+}
+
