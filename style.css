@@ -18,3 +18,33 @@ img {
   max-width: 75%;
   height: fit-content;
 }
+
+/* Navigation sidebar */
+nav {
+  width: auto;
+  height: auto;
+  background-color: #FFFFFF;
+  border-right: 1px solid #E3E3E3;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 1rem;
+}
+
+nav h4 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 2.4px;
+  margin: 0.5rem;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #828FA3;
+}
