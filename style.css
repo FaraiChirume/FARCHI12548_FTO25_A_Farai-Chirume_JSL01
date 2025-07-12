@@ -67,3 +67,26 @@ nav button {
   text-align: center;
   margin-bottom: 1rem;
 }
+
+/* Main layout */
+header {
+  width: auto;
+  padding: 2rem 2.5rem;
+  background-color: #FFFFFF;
+  border-bottom: 3px solid #ffffff;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration: solid;
+}
+
+main {
+  display: flex;
+  padding: 1rem 2rem;
+  gap: 2rem;
+  overflow-x: auto;
+  height: 100%;
+}
