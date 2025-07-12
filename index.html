@@ -1,14 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta />
-    <meta />
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   </head>
 
   <body>
     <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
     <nav>
       <div>
+         <img src="assets/logo-light.svg" alt="Logo" />
         <h4>ALL BOARDS (1)</h4>
         <button>Launch Career</button>
       </div>
@@ -28,12 +32,14 @@
           <div>
             <div>
               <span></span>
-              <h4>TODO</h4>
+              <h4 class="todo">TODO <span class="task-count">(4)</span></h4>
             </div>
             <!-- Tasks container for TODO -->
             <div>
               <div>Launch Epic Career 🚀</div>
               <div>Learn Data Structures and Algorithms 📚</div>
+               <div>Understand Databases ⚙️</div>
+              <div>Crush Frameworks 🖼️</div>
             </div>
           </div>
           <!-- DOING Column -->
